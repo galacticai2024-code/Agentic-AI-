@@ -1,0 +1,6 @@
+{
+  "name": "AI Agent Studio",
+  "description": "A full-stack LLM Agent orchestrator utilizing Groq and local tools. Build, configure, and inspect step-by-step LLM reasoning (thought, action, observation) with real-time execution logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
