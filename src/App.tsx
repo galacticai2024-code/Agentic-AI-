@@ -76,7 +76,7 @@ const AVAILABLE_TOOLS = [
 export default function App() {
   // Input and Configuration
   const [prompt, setPrompt] = useState(PRESET_PROMPTS[0].prompt);
-  const [model, setModel] = useState('llama-3.3-70b-versatile');
+  const [model, setModel] = useState('llama-3.1-8b-instant');
   const [systemPrompt, setSystemPrompt] = useState('You are a highly efficient task automation agent. Use tools strategically to answer queries step-by-step. Break queries down, evaluate facts, and always keep answers concise.');
   const [temperature, setTemperature] = useState(0.2);
   const [maxIterations, setMaxIterations] = useState(5);
@@ -395,8 +395,8 @@ export default function App() {
                 onChange={(e) => setModel(e.target.value)}
                 className="w-full text-xs p-2.5 rounded-lg border border-slate-200 bg-slate-50 font-medium focus:border-indigo-500 outline-hidden"
               >
-                <option value="llama-3.3-70b-versatile">Llama 3.3 70B (Versatile / Smartest)</option>
                 <option value="llama-3.1-8b-instant">Llama 3.1 8B (Instant / Fastest)</option>
+                <option value="llama-3.3-70b-versatile">Llama 3.3 70B (Versatile / Smartest)</option>
                 <option value="mixtral-8x7b-32768">Mixtral 8x7B (Great formatting)</option>
               </select>
             </div>
