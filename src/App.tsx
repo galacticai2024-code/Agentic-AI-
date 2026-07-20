@@ -39,7 +39,7 @@ const PRESET_PROMPTS = [
     title: 'Multi-Step Search & Calc',
     icon: Search,
     description: 'Retrieve population of Tokyo, perform calculation, and save result.',
-    prompt: 'Search on Wikipedia for the current population of Tokyo, divide it by 1000000, and save the result in the memory database with the key "tokyo_millions".'
+    prompt: 'Search Wikipedia for information about IBM and provide some unique facts.'
   },
   {
     id: 'p2',
